@@ -25,3 +25,16 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes confetti {
+  0% {
+    transform: translateY(0) rotateX(0) rotateY(0);
+  }
+  100% {
+    transform: translateY(100vh) rotateX(360deg) rotateY(720deg);
+  }
+}
+
+.animate-confetti {
+  animation: confetti 3s ease-in-out forwards;
+}

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import ConfettiComponent from './Confetti';
 
 interface Question {
   pregunta: string;
@@ -1038,6 +1039,7 @@ const quizData: Question[] = [
 //pagina 20
 
 const Timer = dynamic(() => Promise.resolve(() => {
+  
   const [time, setTime] = useState(0);
 
   useEffect(() => {
@@ -1067,6 +1069,7 @@ export default function Home() {
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [showSolutions, setShowSolutions] = useState<Record<number, boolean>>({});
   const [showTimer, setShowTimer] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   const generateQuestions = () => {
     const numQuestions = parseInt(numQuestionsInput);
@@ -1093,7 +1096,10 @@ export default function Home() {
     setAnswers(updatedAnswers);
 
     const question = questions[questionIndex];
-    if (selectedAnswer !== question.correcta) {
+    if (selectedAnswer === question.correcta) {
+      setShowConfetti(true);
+      setTimeout(() => setShowConfetti(false), 3000); // Hide confetti after 3 seconds
+    } else {
       setShowSolutions({ ...showSolutions, [questionIndex]: true });
     }
   };
@@ -1101,6 +1107,7 @@ export default function Home() {
   return (
     <div className="container mx-auto p-4 relative">
       {showTimer && <Timer />}
+      {showConfetti && <ConfettiComponent />}
       <h1 className="text-2xl font-bold mb-4">Preguntas para la Certificacion - OSCE</h1>
       <div className="mb-4">
         <div className="flex items-center space-x-4 mb-2">
