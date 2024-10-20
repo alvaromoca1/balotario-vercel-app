@@ -1074,17 +1074,19 @@ export default function Home() {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Preguntas para la Certificacion - OSCE</h1>
-      <div className="mb-4 flex items-center space-x-4">
-        <label htmlFor="numQuestions" className="mr-2">
-          Número de preguntas:
-        </label>
-        <input
-          type="text"
-          id="numQuestions"
-          value={numQuestionsInput}
-          onChange={handleInputChange}
-          className="border rounded px-2 py-1"
-        />
+      <div className="mb-4">
+        <div className="flex items-center space-x-4 mb-2">
+          <label htmlFor="numQuestions" className="mr-2">
+            Número de preguntas:
+          </label>
+          <input
+            type="text"
+            id="numQuestions"
+            value={numQuestionsInput}
+            onChange={handleInputChange}
+            className="border rounded px-2 py-1"
+          />
+        </div>
         <button
           onClick={generateQuestions}
           className="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded"
@@ -1093,14 +1095,14 @@ export default function Home() {
         </button>
       </div>
       {questions.map((question, index) => (
-        <div key={index} className="mb-6 p-4 border rounded">
+        <div key={index} className="mb-6 p-4 border rounded" style={{ background: 'rgb(226, 226, 226)' }}>
           <p className="font-semibold mb-2">{question.pregunta}</p>
           <div className="space-y-2">
             {question.alternativas.map((option, optionIndex) => (
               <button
                 key={optionIndex}
                 onClick={() => handleAnswerSelect(index, optionIndex)}
-                className={`block w-full text-left p-2 rounded ${
+                className={`block w-full text-left p-2 border rounded ${
                   answers[index] === optionIndex
                     ? optionIndex === question.correcta
                       ? 'bg-green-200'
