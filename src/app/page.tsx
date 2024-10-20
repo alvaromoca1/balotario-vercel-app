@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 
 interface Question {
   pregunta: string;
@@ -1036,11 +1037,36 @@ const quizData: Question[] = [
 ]
 //pagina 20
 
+const Timer = dynamic(() => Promise.resolve(() => {
+  const [time, setTime] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime((prevTime) => prevTime + 1);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const formatTime = (time: number) => {
+    const hours = Math.floor(time / 3600);
+    const minutes = Math.floor((time % 3600) / 60);
+    const seconds = time % 60;
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  };
+
+  return (
+    <div className="fixed top-4 right-4 bg-white p-2 rounded shadow-md z-50">
+      <p className="text-lg font-bold">{formatTime(time)}</p>
+    </div>
+  );
+}), { ssr: false });
+
 export default function Home() {
   const [numQuestionsInput, setNumQuestionsInput] = useState('78');
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [showSolutions, setShowSolutions] = useState<Record<number, boolean>>({});
+  const [showTimer, setShowTimer] = useState(false);
 
   const generateQuestions = () => {
     const numQuestions = parseInt(numQuestionsInput);
@@ -1052,6 +1078,7 @@ export default function Home() {
     setQuestions(shuffled.slice(0, numQuestions));
     setAnswers({});
     setShowSolutions({});
+    setShowTimer(true);
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -1072,7 +1099,8 @@ export default function Home() {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 relative">
+      {showTimer && <Timer />}
       <h1 className="text-2xl font-bold mb-4">Preguntas para la Certificacion - OSCE</h1>
       <div className="mb-4">
         <div className="flex items-center space-x-4 mb-2">
