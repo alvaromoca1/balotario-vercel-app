@@ -991,52 +991,778 @@ const quizData: Question[] = [
       "correcta": 3,
       "solucion": "La respuesta correcta es: Concesión de una carretera."
       },
+  {
+    "pregunta": "Corresponde establecer el Valor Referencial cuando se determine la contratación de:",
+    "alternativas": [
+    "Bienes, Servicios en general, Consultorías y Ejecución de Obras.",
+    "Consultorías en General y Consultorías de Obras.",
+    "Servicios en General y Consultorías en General.",
+    "Consultorías de obras y Ejecución de Obras."
+    ],
+    "correcta": 3,
+    "solucion": "La respuesta correcta es: Consultorías de obras y Ejecución de Obras."
+    },
+    {
+    "pregunta": "Ante la ausencia de un miembro titular del Comité de Selección, su respectivo suplente actúa:",
+    "alternativas": [
+    "Hasta la fecha de suscripción del contrato respectivo.",
+    "Solo en tanto el titular esté ausente, reincorporándose este automáticamente cuando cesa el motivo de su ausencia.",
+    "Solo en tanto el titular esté ausente, reincorporándose previa justificación del motivo de ausencia.",
+    "De ahí en adelante hasta la culminación del procedimiento de selección."
+    ],
+    "correcta": 1,
+    "solucion": "La respuesta correcta es: Solo en tanto el titular esté ausente, reincorporándose este automáticamente cuando cesa el motivo de su ausencia."
+    },
+    {
+    "pregunta": "Respecto al Comité de Selección, indicar la respuesta falsa:",
+    "alternativas": [
+    "Los integrantes del comité de selección solo pueden ser removidos por caso fortuito o fuerza mayor, por cese en el servicio, u otra justificada, mediante documento debidamente motivado.",
+    "Para sesionar y adoptar acuerdos válidos el quórum para el funcionamiento del Comité de selección se da con la presencia de la mayoría de miembros titulares.",
+    "La designación del comité de selección es notificada por la Entidad a cada uno de los miembros.",
+    "El comité de selección está integrado por tres (3) miembros, de los cuales uno (1) debe pertenecer al órgano encargado de las contrataciones de la Entidad y por lo menos uno (1) debe tener conocimiento técnico e el objeto de la contratación."
+    ],
+    "correcta": 1,
+    "solucion": "La respuesta falsa es: Para sesionar y adoptar acuerdos válidos el quórum para el funcionamiento del Comité de selección se da con la presencia de la mayoría de miembros titulares."
+    },
+    {
+    "pregunta": "¿Se puede incluir en el requerimiento disposiciones previstas en normas técnicas de carácter voluntario?",
+    "alternativas": [
+    "No, debido a que el OSCE ha indicado en Pronunciamiento que está prohibido.",
+    "No, dado que no forman parte del ordenamiento jurídico nacional.",
+    "Sí, siempre que sirvan para asegurar el cumplimiento de los requisitos funcionales o técnicos, se verifique que existe en el mercado algún organismo que pueda acreditar el cumplimiento de dicha norma técnica, y no contraventa normas de carácter obligatorio.",
+    "Sí, siempre que no contravenga ninguna norma nacional obligatoria y esté autorizada expresamente por INACAL (INDECOPI)"
+    ],
+    "correcta": 2,
+    "solucion": "La respuesta correcta es: Sí, siempre que sirvan para asegurar el cumplimiento de los requisitos funcionales o técnicos, se verifique que existe en el mercado algún organismo que pueda acreditar el cumplimiento de dicha norma técnica, y no contraventa normas de carácter obligatorio."
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no es un factor de evaluación para la contratación de bienes?",
+      "alternativas": [
+      "Capacitación del Personal",
+      "Sostenibilidad Social",
+      "Experiencia del Postor",
+      "Precio"
+      ],
+      "correcta": 0,
+      "solucion": "La respuesta correcta es 'Capacitación del Personal'. En la contratación de bienes, la capacitación del personal no es un factor de evaluación típico, mientras que los otros factores mencionados sí lo son."
+      },
       {
-        "pregunta": "Corresponde establecer el Valor Referencial cuando se determine la contratación de:",
+      "pregunta": "El procedimiento de selección de subasta inversa electrónica, se realiza para la:",
+      "alternativas": [
+      "Contratación de bienes y servicios comunes, incluyendo consultorías, salvo consultorías de obras",
+      "Contratación de bienes y servicios comunes",
+      "Contratación de bienes, servicios y obras comunes",
+      "Contratación de servicios, incluyendo consultorías"
+      ],
+      "correcta": 1,
+      "solucion": "La respuesta correcta es 'Contratación de bienes y servicios comunes'. La subasta inversa electrónica se utiliza específicamente para la contratación de bienes y servicios comunes que se encuentran en el Listado de Bienes y Servicios Comunes."
+      },
+      {
+      "pregunta": "En las Contrataciones Directas cuál de los siguientes supuestos no es delegable:",
+      "alternativas": [
+      "Servicios especializados para la defensa de funcionarios.",
+      "Proveedor único.",
+      "Cuando se contrate con otra entidad.",
+      "Servicios de capacitación."
+      ],
+      "correcta": 2,
+      "solucion": "La respuesta correcta es 'Cuando se contrate con otra entidad'. Este supuesto de contratación directa no es delegable, debe ser aprobado directamente por el Titular de la Entidad."
+      },
+      {
+      "pregunta": "¿Cuáles son los factores de evaluación para licitaciones públicas de obras?",
+      "alternativas": [
+      "Precio, sostenibilidad ambiental y social, protección social y desarrollo humano, integridad de la contratación pública, y en el caso de la modalidad de llave en mano, capacitación al personal de la Entidad.",
+      "Precio, sostenida ambiental y social, y en el caso de la modalidad de llave en mano, operación asistida.",
+      "Capacidad Legal, Capacidad Técnica y Profesional, y Experiencia del Postor",
+      "Capacitación, Infraestructura y Precio y experiencia del postor"
+      ],
+      "correcta": 0,
+      "solucion": "La respuesta correcta es 'Precio, sostenibilidad ambiental y social, protección social y desarrollo humano, integridad de la contratación pública, y en el caso de la modalidad de llave en mano, capacitación al personal de la Entidad.' Estos son los factores de evaluación establecidos para licitaciones públicas de obras según la normativa de contrataciones del Estado."
+      },
+      {
+      "pregunta": "La elevación de cuestionamientos al pliego de absolución de consultas, observaciones e integración de bases, para que la Dirección de Gestión de Riesgos del OSCE emita pronunciamiento, procede:",
+      "alternativas": [
+      "Cuando no fueron acogidas las observaciones presentadas en cualquier procedimiento.",
+      "Cuando la absolución resulta contraria a las buenas costumbres.",
+      "Con la nueva normativa no procede la elevación en ningún caso.",
+      "Sólo en el caso de LP y CP."
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'Sólo en el caso de LP y CP.' La elevación de cuestionamientos al pliego de absolución de consultas, observaciones e integración de bases procede únicamente en los casos de Licitación Pública (LP) y Concurso Público (CP)."
+      },
+      {
+      "pregunta": "Respecto a las Licitaciones Públicas indique la respuesta correcta:",
+      "alternativas": [
+      "En una Licitación Pública el plazo entre la integración de bases y la presentación de ofertas no debe ser menor de cuatro (4) días hábiles",
+      "El plazo mínimo para la etapa de consultas y observaciones es de 05 días hábiles",
+      "En una LP, para contratación de bienes, la secuencia correcta de los actos a cargo del comité de selección es la siguiente: presentación de ofertas, verificación de contenido mínimo, admisión de la propuesta, aplicación de los factores de evaluación, verificación de los requisitos de calificación, y otorgamiento de la buena pro.",
+      "El plazo para el consentimiento de la Licitación Pública es de 05 días hábiles de notificada la buena pro, si es que se presentan más de una oferta."
+      ],
+      "correcta": 2,
+      "solucion": "La respuesta correcta es 'En una LP, para contratación de bienes, la secuencia correcta de los actos a cargo del comité de selección es la siguiente: presentación de ofertas, verificación de contenido mínimo, admisión de la propuesta, aplicación de los factores de evaluación, verificación de los requisitos de calificación, y otorgamiento de la buena pro.' Esta es la secuencia correcta de actos en una Licitación Pública para contratación de bienes."
+      },
+      {
+      "pregunta": "En una licitación pública para la ejecución de una obra, ¿La etapa de evaluación de la oferta es posterior a la calificación?",
+      "alternativas": [
+      "La afirmación es correcta toda vez que primero debe Calificarse la oferta y después evaluarse",
+      "No es correcto al desarrollarse ambas Etapas de manera conjunta",
+      "La afirmación es correcta en tanto se trate de una obra de Saneamiento",
+      "En una Licitación Pública para obras, la Etapa de Evaluación es anterior a la Calificación de la Oferta"
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'En una Licitación Pública para obras, la Etapa de Evaluación es anterior a la Calificación de la Oferta'. En las licitaciones públicas para obras, primero se evalúan las ofertas y luego se califican, a diferencia de otros tipos de procedimientos."
+      },
+      {
+      "pregunta": "De la revisión de las Bases se advierte que, el plazo de ejecución indicado en letras dice (ciento veinte) pero en números se ha indicado (180). ¿Qué principio se ha vulnerado?",
+      "alternativas": [
+      "Principio de Competencia",
+      "Principio de Libertad de Concurrencia",
+      "Principio de Transparencia",
+      "Principio de Equidad"
+      ],
+      "correcta": 2,
+      "solucion": "La respuesta correcta es 'Principio de Transparencia'. La discrepancia entre el plazo de ejecución indicado en letras y en números vulnera el Principio de Transparencia, ya que no permite una información clara y coherente a los postores."
+      },
+      {
+      "pregunta": "Si una subasta inversa electrónica es declarada desierta por segunda vez, la siguiente convocatoria se realiza bajo el procedimiento de:",
+      "alternativas": [
+      "Subasta Inversa Electrónica",
+      "Licitación Pública",
+      "Bajo subasta inversa electrónica, salvo que la Entidad como resultado del análisis efectuado en el informe de declaratoria de desierto determine su convocatoria a través de una Adjudicación Simplificada.",
+      "Comparación de Precios"
+      ],
+      "correcta": 2,
+      "solucion": "La respuesta correcta es 'Bajo subasta inversa electrónica, salvo que la Entidad como resultado del análisis efectuado en el informe de declaratoria de desierto determine su convocatoria a través de una Adjudicación Simplificada.' Esta opción refleja correctamente el procedimiento a seguir después de que una subasta inversa electrónica sea declarada desierta por segunda vez."
+      },
+      {
+      "pregunta": "Señale la respuesta correcta. Durante la adjudicación simplificada, cual es el primer criterio de desempate",
+      "alternativas": [
+      "Sorteo electrónico a través del SEACE.",
+      "Al postor que haya obtenido el mejor puntaje total.",
+      "A favor de las microempresas y pequeñas empresas integradas por personas con discapacidad",
+      "A favor de las microempresas y pequeñas empresas."
+      ],
+      "correcta": 1,
+      "solucion": "La respuesta correcta es 'Al postor que haya obtenido el mejor puntaje total.' En una adjudicación simplificada, el primer criterio de desempate es otorgar la buena pro al postor que haya obtenido el mejor puntaje total."
+      },
+      {
+      "pregunta": "¿En qué objeto de contratación se puede incluir el Factor de Evaluación calificaciones y/o experiencias del personal clave?",
+      "alternativas": [
+      "Únicamente en bienes",
+      "En ejecución de obras",
+      "Únicamente en consultoría en general",
+      "Servicios"
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'Servicios'. El factor de evaluación de calificaciones y/o experiencias del personal clave se puede incluir en la contratación de servicios, incluyendo consultorías y obras."
+      },
+      {
+      "pregunta": "El OEC tiene a su cargo los procedimientos de:",
+      "alternativas": [
+      "Concurso Público",
+      "Licitación Pública",
+      "Concurso de Precios",
+      "Adjudicación Simplificada"
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'Adjudicación Simplificada'. El Órgano Encargado de las Contrataciones (OEC) tiene a su cargo los procedimientos de Adjudicación Simplificada, entre otros."
+      },
+      {
+      "pregunta": "¿Es subsanable la legalización de las firmas de la promesa formal de consorcio?",
+      "alternativas": [
+      "No es subsanable",
+      "Solo es subsanable cuando la presentación de ofertas se realiza en acto público",
+      "Sí, es subsanable",
+      "Solo es subsanable las firmas no la legalización"
+      ],
+      "correcta": 2,
+      "solucion": "La respuesta correcta es 'Sí, es subsanable'. La legalización de las firmas de la promesa formal de consorcio es un requisito subsanable según la normativa de contrataciones del Estado."
+      },
+      {
+      "pregunta": "¿En qué caso corresponde aplicar el supuesto de contratación directa denominado: 'Contrataciones derivadas de un contrato resuelto o declarado nulo'",
+      "alternativas": [
+      "Cuando se resuelva un contrato y exista la necesidad de culminar con la ejecución de las prestaciones derivadas de este.",
+      "Cuando se resuelva un contrato y exista la necesidad urgente de culminar con la ejecución de las prestaciones derivadas de este, pudiéndose contratar con proveedores distintos a los que fueron postores.",
+      "Cuando se resuelva un contrato y exista la necesidad urgente de culminar con la ejecución de las prestaciones derivadas de este, no debiendo encontrarse la resolución sometida a algún medio de solución de controversias.",
+      "Cuando se resuelva un contrato y exista la necesidad urgente de culminar con la ejecución de las prestaciones derivadas de este, aun cuando dicha resolución se encuentre sometida a alguno de los medios de solución de controversias."
+      ],
+      "correcta": 1,
+      "solucion": "La respuesta correcta es 'Cuando se resuelva un contrato y exista la necesidad urgente de culminar con la ejecución de las prestaciones derivadas de este, pudiéndose contratar con proveedores distintos a los que fueron postores.' Este supuesto permite a la entidad contratar directamente para culminar las prestaciones de un contrato resuelto, incluso con proveedores que no participaron en el proceso original."
+      },
+      {
+      "pregunta": "Para convocar un procedimiento de selección, por regla general, se debe verificar previamente lo siguiente:",
+      "alternativas": [
+      "Que se publique las Bases Administrativas al momento de la convocatoria.",
+      "Que el procedimiento se encuentre incluido en el PAC",
+      "Que se publique el Resumen Ejecutivo al momento de la convocatoria, excepto en el caso de obras.",
+      "Todas son correctas."
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'Todas son correctas.' Para convocar un procedimiento de selección, se debe verificar que se publiquen las Bases Administrativas, que el procedimiento esté incluido en el PAC, y que se publique el Resumen Ejecutivo (excepto en obras)."
+      },
+      {
+      "pregunta": "¿Cuáles son los requisitos de calificaciones opcionales en los concursos públicos de consultoría de obras?",
+      "alternativas": [
+      "Infraestructura",
+      "Equipamiento",
+      "Equipamiento y Experiencia del personal clave",
+      "Equipamiento, Experiencia en la Actividad y Experiencia en la Especialidad"
+      ],
+      "correcta": 2,
+      "solucion": "La respuesta correcta es 'Equipamiento y Experiencia del personal clave'. Estos son los requisitos de calificación opcionales en los concursos públicos de consultoría de obras."
+      },
+      {
+      "pregunta": "No es un requisito de calificación de la oferta:",
+      "alternativas": [
+      "La Capacidad Legal",
+      "La Capacidad Técnica",
+      "La Capacidad del Profesional",
+      "El Plazo de entrega"
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'El Plazo de entrega'. El plazo de entrega no es un requisito de calificación de la oferta, sino que generalmente es un factor de evaluación."
+      },
+      {
+        "pregunta": "¿Cuáles son los factores de evaluación para concurso público de consultoría de obras?",
         "alternativas": [
-        "Bienes, Servicios en general, Consultorías y Ejecución de Obras.",
-        "Consultorías en General y Consultorías de Obras.",
-        "Servicios en General y Consultorías en General.",
-        "Consultorías de obras y Ejecución de Obras."
-        ],
-        "correcta": 3,
-        "solucion": "La respuesta correcta es: Consultorías de obras y Ejecución de Obras."
-        },
-        {
-        "pregunta": "Ante la ausencia de un miembro titular del Comité de Selección, su respectivo suplente actúa:",
-        "alternativas": [
-        "Hasta la fecha de suscripción del contrato respectivo.",
-        "Solo en tanto el titular esté ausente, reincorporándose este automáticamente cuando cesa el motivo de su ausencia.",
-        "Solo en tanto el titular esté ausente, reincorporándose previa justificación del motivo de ausencia.",
-        "De ahí en adelante hasta la culminación del procedimiento de selección."
-        ],
-        "correcta": 1,
-        "solucion": "La respuesta correcta es: Solo en tanto el titular esté ausente, reincorporándose este automáticamente cuando cesa el motivo de su ausencia."
-        },
-        {
-        "pregunta": "Respecto al Comité de Selección, indicar la respuesta falsa:",
-        "alternativas": [
-        "Los integrantes del comité de selección solo pueden ser removidos por caso fortuito o fuerza mayor, por cese en el servicio, u otra justificada, mediante documento debidamente motivado.",
-        "Para sesionar y adoptar acuerdos válidos el quórum para el funcionamiento del Comité de selección se da con la presencia de la mayoría de miembros titulares.",
-        "La designación del comité de selección es notificada por la Entidad a cada uno de los miembros.",
-        "El comité de selección está integrado por tres (3) miembros, de los cuales uno (1) debe pertenecer al órgano encargado de las contrataciones de la Entidad y por lo menos uno (1) debe tener conocimiento técnico e el objeto de la contratación."
-        ],
-        "correcta": 1,
-        "solucion": "La respuesta falsa es: Para sesionar y adoptar acuerdos válidos el quórum para el funcionamiento del Comité de selección se da con la presencia de la mayoría de miembros titulares."
-        },
-        {
-        "pregunta": "¿Se puede incluir en el requerimiento disposiciones previstas en normas técnicas de carácter voluntario?",
-        "alternativas": [
-        "No, debido a que el OSCE ha indicado en Pronunciamiento que está prohibido.",
-        "No, dado que no forman parte del ordenamiento jurídico nacional.",
-        "Sí, siempre que sirvan para asegurar el cumplimiento de los requisitos funcionales o técnicos, se verifique que existe en el mercado algún organismo que pueda acreditar el cumplimiento de dicha norma técnica, y no contraventa normas de carácter obligatorio.",
-        "Sí, siempre que no contravenga ninguna norma nacional obligatoria y esté autorizada expresamente por INACAL (INDECOPI)"
+        "Capacidad Legal, Capacidad Técnica y Profesional, y Experiencia del Postor",
+        "Precio, sostenibilidad ambiental y social, y capacitación del personal de la entidad",
+        "Experiencia del postor en la especialidad; Metodología Propuesta; Conocimiento del proyecto e identificación de facilidades, dificultades y propuestas de solución; Sostenibilidad Ambiental y Social, Protección social y desarrollo humano; e Integridad en la contratación pública.",
+        "Metodología Propuesta, Calificación y Experiencia Personal Clave y sostenibilidad social y ambiental"
         ],
         "correcta": 2,
-        "solucion": "La respuesta correcta es: Sí, siempre que sirvan para asegurar el cumplimiento de los requisitos funcionales o técnicos, se verifique que existe en el mercado algún organismo que pueda acreditar el cumplimiento de dicha norma técnica, y no contraventa normas de carácter obligatorio."
-        }
+        "solucion": "La respuesta correcta es 'Experiencia del postor en la especialidad; Metodología Propuesta; Conocimiento del proyecto e identificación de facilidades, dificultades y propuestas de solución; Sostenibilidad Ambiental y Social, Protección social y desarrollo humano; e Integridad en la contratación pública.' Estos son los factores de evaluación establecidos para concursos públicos de consultoría de obras según la normativa de contrataciones del Estado."
+        },
+        {
+        "pregunta": "El funcionario delegado por el Titular de la Entidad, aprueba el expediente de contratación mediante un proveído, sobre el particular corresponde firmar:",
+        "alternativas": [
+        "En todos los casos la aprobación debió realizarse necesariamente mediante resolución.",
+        "En todos los casos la aprobación no debió realizarse necesariamente mediante resolución.",
+        "La aprobación debió realizarse necesariamente mediante resolución del funcionario delegado.",
+        "La aprobación ha sido correcta"
+        ],
+        "correcta": 3,
+        "solucion": "La respuesta correcta es 'La aprobación ha sido correcta'. La aprobación del expediente de contratación puede realizarse mediante un proveído si el funcionario ha sido debidamente delegado por el Titular de la Entidad."
+        },
+        {
+        "pregunta": "Los procedimientos de selección que presentan las ofertas en un sobre son:",
+        "alternativas": [
+        "Adjudicación Simplificada para consultoría de obras",
+        "Adjudicación Simplificada para bienes y servicios en general",
+        "Comparación de precios",
+        "Concurso Público para consultoría de obras"
+        ],
+        "correcta": 2,
+        "solucion": "La respuesta correcta es 'Comparación de precios'. En la comparación de precios, las ofertas se presentan en un solo sobre."
+        },
+        {
+        "pregunta": "Relacione respecto a las competencias para resolver el recurso de apelación: 1. Titular de la Entidad, 2. Tribunal de Contrataciones del estado, a) Declarar nulidad en contratación de servicios en general por un valor estimado de S/. 180,000.00, b) Declarar fundado el recurso de apelación en contratación de servicios de consultoría en general por un valor estimado de S/. 250,000.00, c) Declarar infundado el recurso de apelación en contratación de bienes por un valor estimado de S/. 80,000.00, d) Declarar improcedente el recurso de apelación en contratación de ejecución de obras por un valor referencial de S/.3,500,000.00",
+        "alternativas": [
+        "1-a), 2-b), 1-c), 1-d)",
+        "1-d), 2-b), 2-a), 1-c)",
+        "1-c), 2-a), 2-b), 1-d)",
+        "1-a), 2-b), 1-c), 2-d)"
+        ],
+        "correcta": 3,
+        "solucion": "La respuesta correcta es '1-a), 2-b), 1-c), 2-d)'. El Titular de la Entidad resuelve apelaciones en contrataciones con valor estimado igual o menor a 50 UIT, mientras que el Tribunal de Contrataciones resuelve las apelaciones en contrataciones con valor estimado mayor a 50 UIT."
+        },
+        {
+        "pregunta": "Relacione respecto a la conducción de los procedimientos de selección: 1. Órgano encargado de las contrataciones, 2. Comité de Selección, a) Comparación de precios, b) Selección de Consultores Individuales, c) Licitación Pública, d) Contratación Directa.",
+        "alternativas": [
+        "1-d), 2-b), 2-a), 1-c)",
+        "1-a), 2-b), 1-c), 1-d)",
+        "1-a), 2-b), 2-c), 1-d)",
+        "1-c), 2-a), 2-b), 1-d)"
+        ],
+        "correcta": 2,
+        "solucion": "La respuesta correcta es '1-a), 2-b), 2-c), 1-d)'. El Órgano encargado de las contrataciones conduce la Comparación de precios y la Contratación Directa, mientras que el Comité de Selección conduce la Selección de Consultores Individuales y la Licitación Pública."
+        },
+        {
+        "pregunta": "Relacione respecto a las funciones de los siguientes órganos: 1. Órgano encargado de las contrataciones, 2. Titular de la Entidad, a) Autoriza la nulidad del contrato, b) Aplicación de penalidades, c) Licitación Pública, d) Procedimiento de pago, en lo que corresponda.",
+        "alternativas": [
+        "1-d), 2-b), 2-a), 1-c)",
+        "1-a), 2-b), 1-c), 1-d)",
+        "1-a), 2-b), 2-c), 1-d)",
+        "1-c), 2-a), 2-b), 1-d)"
+        ],
+        "correcta": 0,
+        "solucion": "La respuesta correcta es '1-d), 2-b), 2-a), 1-c)'. El Órgano encargado de las contrataciones se encarga del procedimiento de pago y la Licitación Pública, mientras que el Titular de la Entidad autoriza la nulidad del contrato y la aplicación de penalidades."
+        },
+        {
+        "pregunta": "La __________ establece disposiciones para la aplicación del procedimiento de selección de Subasta Inversa Electrónica y la __________ establece disposiciones para la aplicación del método especial de contratación a través de los catálogos electrónicos de Acuerdo Marco.",
+        "alternativas": [
+        "Directiva Nº 006-2019-OSCE/CD, Directiva Nº 007-2017-OSCE/CD",
+        "Directiva Nº 005-2017-OSCE/CD, Directiva Nº 007-2016-OSCE/CD",
+        "Directiva Nº 008-2017-OSCE/CD, Directiva Nº 009-2017-OSCE/CD",
+        "Directiva Nº 004-2015-OSCE/CD, Directiva Nº 008-2016-OSCE/CD"
+        ],
+        "correcta": 0,
+        "solucion": "La respuesta correcta es 'Directiva Nº 006-2019-OSCE/CD, Directiva Nº 007-2017-OSCE/CD'. Estas son las directivas que establecen las disposiciones para la Subasta Inversa Electrónica y los catálogos electrónicos de Acuerdo Marco, respectivamente."
+        },
+        {
+          "pregunta": "Relacione respecto a la buena pro: 1. Buena pro consentida, 2. Buena pro administrativamente firme, a) Se publica en el SEACE que el recurso de apelación ha sido declarado como no presentado o improcedente, b) Los postores no ejercieron el derecho de interponer el recurso de apelación, c) Opera la denegatoria ficta del recurso de apelación, d) Se publica en el SEACE la resolución que otorga y/o confirma la buena pro.",
+          "alternativas": [
+          "1-d), 2-b), 2-a), 1-c)",
+          "1-d), 2-a), 2-b), 1-c)",
+          "1-b), 2-a), 2-c), 2-d)",
+          "1-a), 2-b), 1-c), 2-d)"
+          ],
+          "correcta": 2,
+          "solucion": "La respuesta correcta es '1-b), 2-a), 2-c), 2-d)'. La buena pro consentida ocurre cuando los postores no ejercen el derecho de interponer recurso de apelación, mientras que la buena pro administrativamente firme se da en los otros casos mencionados."
+          },
+          {
+          "pregunta": "Relacione respecto a los documentos del procedimiento de selección: 1. Bases, 2. Solicitud de Expresión de Interés, 3. Solicitud de cotización, a) Contratación Directa, b) Selección de Consultores Individuales, c) Comparación de Precios, d) Licitación Pública.",
+          "alternativas": [
+          "1-d), 2-b), 2-a), 1-c)",
+          "1-a), 2-b), 1-c), 1-d)",
+          "1-a), 2-b), 2-c), 1-d)",
+          "1-a), 2-b), 3-c), 1-d)"
+          ],
+          "correcta": 3,
+          "solucion": "La respuesta correcta es '1-a), 2-b), 3-c), 1-d)'. Las Bases se utilizan en Contratación Directa y Licitación Pública, la Solicitud de Expresión de Interés en Selección de Consultores Individuales, y la Solicitud de cotización en Comparación de Precios."
+          },
+          {
+          "pregunta": "Una Municipalidad quiere convocar __________ por un valor estimado de S/ 800,000.00 para la contratación del Servicio de recojo de residuos sólidos. La secuencia del procedimiento de selección es: __________, __________ y __________.",
+          "alternativas": [
+          "Una adjudicación Simplificada, presentación de ofertas, admisión, evaluación y calificación de ofertas técnicas.",
+          "Un concurso público, presentación de ofertas, admisión, evaluación y calificación de ofertas técnicas",
+          "Un concurso público, admisión, presentación de ofertas, calificación y evaluación de ofertas",
+          "Una adjudicación simplificada, presentación de ofertas, evaluación, admisión y calificación de ofertas técnicas."
+          ],
+          "correcta": 1,
+          "solucion": "La respuesta correcta es 'Un concurso público, presentación de ofertas, admisión, evaluación y calificación de ofertas técnicas'. Para un servicio de S/ 800,000.00, corresponde un concurso público, y la secuencia correcta es la mencionada."
+          },
+          {
+          "pregunta": "Respecto a la Subasta Inversa Electrónica, no es correcto:",
+          "alternativas": [
+          "Los bienes o servicios deben contar con fichas técnicas aprobadas e incluidas en el Listado de Bienes y Servicios Comunes",
+          "Se declara desierto cuando no se cuenta con dos ofertas válidas",
+          "Se adjudica si existe solo una oferta válida",
+          "Ninguna de las anteriores"
+          ],
+          "correcta": 1,
+          "solucion": "La respuesta correcta es 'Se declara desierto cuando no se cuenta con dos ofertas válidas'. En la Subasta Inversa Electrónica, se puede adjudicar incluso con una sola oferta válida, por lo que no es correcto que se declare desierto cuando no hay dos ofertas válidas."
+          },
+          {
+          "pregunta": "Respecto al Recurso de Apelación es correcto afirmar:",
+          "alternativas": [
+          "La interposición del recurso de apelación no suspende el procedimiento para la incorporación de proveedores a los Catálogos Electrónicos de Acuerdo Marco ni el procedimiento de extensión de vigencia de dichos catálogos.",
+          "No se requiere garantía",
+          "Se presenta ante el Tribunal cuando el valor estimado o valor referencial es menor o igual a 50 UIT",
+          "Ninguna de las anteriores"
+          ],
+          "correcta": 0,
+          "solucion": "La respuesta correcta es 'La interposición del recurso de apelación no suspende el procedimiento para la incorporación de proveedores a los Catálogos Electrónicos de Acuerdo Marco ni el procedimiento de extensión de vigencia de dichos catálogos.' Esta es una característica específica del recurso de apelación en estos casos."
+          },
+          {
+          "pregunta": "El acto que declara la nulidad de un procedimiento de selección se debe registrar y publicar en la consola de selección del SEACE, con la indicación de __________, __________ y __________.",
+          "alternativas": [
+          "Los datos del titular de la entidad o la sala del tribunal de contrataciones, la causal de la nulidad, la etapa a la que se retrotraerá el procedimiento.",
+          "Los datos del titular de la entidad o la sala del tribunal de contrataciones, la causal de la nulidad, la fecha de convocatoria del nuevo procedimiento.",
+          "La causal de nulidad, la fecha de convocatoria del nuevo procedimiento, la fecha de convocatoria del nuevo procedimiento.",
+          "Los datos del titular de la entidad o la sala del tribunal de contrataciones, la etapa a la que se retrotraerá el procedimiento, la fecha de convocatoria del nuevo procedimiento."
+          ],
+          "correcta": 0,
+          "solucion": "La respuesta correcta es 'Los datos del titular de la entidad o la sala del tribunal de contrataciones, la causal de la nulidad, la etapa a la que se retrotraerá el procedimiento.' Estos son los elementos que deben indicarse al registrar y publicar la nulidad de un procedimiento de selección en el SEACE."
+          },
+          {
+          "pregunta": "En __________, el plazo para absolver las consultas y observaciones no puede exceder de __________.",
+          "alternativas": [
+          "Adjudicación Simplificada, 5 días hábiles.",
+          "Concurso Público, 5 días hábiles.",
+          "Adjudicación Simplificada, 7 días hábiles",
+          "Concurso Público, 7 días hábiles"
+          ],
+          "correcta": 3,
+          "solucion": "La respuesta correcta es 'Concurso Público, 7 días hábiles'. En un Concurso Público, el plazo para absolver las consultas y observaciones no puede exceder de 7 días hábiles."
+          },
+      {
+      "pregunta": "Una Entidad cancela una subasta inversa electrónica cuyo valor estimado asciende a S/. 150,000.00, por la causal de caso fortuito o fuerza mayor. Un postor que no está de acuerdo con la cancelación de dicho procedimiento, interpone el recurso de apelación ante el Tribunal de Contrataciones. ¿Cómo debería resolverse el recurso de apelación?",
+      "alternativas": [
+      "El recurso de apelación debe ser declarado infundado, porque la cancelación del procedimiento de selección se llevó acabo correctamente.",
+      "El recurso de apelación debe ser declarado infundado por haberse interpuesto ante el Tribunal de Contrataciones.",
+      "El recurso de apelación debe ser declarado fundado, porque no se configuró ninguna causal para cancelar el procedimiento de selección.",
+      "El recurso de apelación debe ser declarado improcedente por haberse interpuesto ante el Tribunal de Contrataciones."
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'El recurso de apelación debe ser declarado improcedente por haberse interpuesto ante el Tribunal de Contrataciones.' Para un valor estimado de S/. 150,000.00, el recurso de apelación debe presentarse ante la Entidad, no ante el Tribunal de Contrataciones."
+      },
+      {
+      "pregunta": "Para la contratación de servicio de fotocopiado de documentos por un monto de S/. 380,000, una Entidad debe convocar __________, y para la adquisición de camionetas por un monto de S/. 250,000, debe convocar __________.",
+      "alternativas": [
+      "Concurso público, Licitación pública.",
+      "Adjudicación simplificada, licitación pública.",
+      "Adjudicación simplificada, adjudicación simplificada.",
+      "Concurso público, adjudicación simplificada."
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'Concurso público, adjudicación simplificada.' Para el servicio de fotocopiado de S/. 380,000 corresponde un concurso público, mientras que para la adquisición de camionetas por S/. 250,000 corresponde una adjudicación simplificada."
+      },
+      {
+      "pregunta": "En un concurso público para la contratación de un estudio de factibilidad de un área protegida, convocado por una Entidad, el otorgamiento de la buena pro se realiza en acto privado. Al verificar esta situación, la Entidad declara la nulidad del procedimiento. Ante ello, un participante interpone un recurso de apelación porque no está de acuerdo con dicha declaratoria.",
+      "alternativas": [
+      "El recurso de apelación debe ser declarado improcedente porque no puede interponer dicho recurso, sino solamente los postores.",
+      "El recurso de apelación debe ser declarado infundado porque la Entidad debió cancelar el procedimiento de selección.",
+      "El recurso de apelación debe ser declarado fundado porque la Entidad no actuó correctamente al declarar la nulidad del procedimiento de selección.",
+      "El recurso de apelación debe ser declarado infundado porque la Entidad actuó correctamente al declarar la nulidad del procedimiento de selección."
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'El recurso de apelación debe ser declarado infundado porque la Entidad actuó correctamente al declarar la nulidad del procedimiento de selección.' En un concurso público, el otorgamiento de la buena pro debe realizarse en acto público, por lo que la Entidad actuó correctamente al declarar la nulidad."
+      },
+      {
+      "pregunta": "En la __________ para la contratación de bienes, el plazo entre la integración de bases y la presentación de ofertas, no puede ser menor de __________",
+      "alternativas": [
+      "Adjudicación simplificada, 5 días hábiles.",
+      "Licitación pública, 3 días hábiles.",
+      "Adjudicación simplificada, 2 días hábiles.",
+      "Licitación pública, 7 días hábiles."
+      ],
+      "correcta": 3,
+      "solucion": "La respuesta correcta es 'Licitación pública, 7 días hábiles.' En una licitación pública para la contratación de bienes, el plazo entre la integración de bases y la presentación de ofertas no puede ser menor de 7 días hábiles."
+      },
+      {
+        "pregunta": "Una Entidad quiere convocar __________ para la supervisión de la obra 'Manantial'. La secuencia correcta de dicho procedimiento de selección es: __________",
+        "alternativas": [
+        "Un LP, presentación de ofertas, admisión, calificación y evaluación de ofertas técnicas.",
+        "Un CP, presentación de ofertas, admisión, calificación y evaluación de ofertas técnicas.",
+        "Un LP, presentación de ofertas, admisión, evaluación y calificación de ofertas.",
+        "Un AS, presentación de ofertas, evaluación, admisión y calificación de oferta."
+        ],
+        "correcta": 1,
+        "solucion": "La respuesta correcta es 'Un CP, presentación de ofertas, admisión, calificación y evaluación de ofertas técnicas.' Para la supervisión de obra se convoca un Concurso Público (CP) y la secuencia es la indicada."
+        },
+        {
+        "pregunta": "Servicios de Saneamiento quiere convocar __________ para la toma de inventario físico de bienes patrimoniales. La secuencia correcta de dicho procedimiento de selección es: __________",
+        "alternativas": [
+        "Un concurso público, presentación de ofertas, admisión, evaluación y calificación de ofertas.",
+        "Una adjudicación simplificada, presentación de ofertas, admisión, evaluación y pre calificación de ofertas.",
+        "Un concurso público, presentación de ofertas, admisión, calificación y evaluación de ofertas.",
+        "Una adjudicación simplificada, presentación de ofertas, evaluación, admisión y calificación de ofertas técnicas."
+        ],
+        "correcta": 3,
+        "solucion": "La respuesta correcta es 'Una adjudicación simplificada, presentación de ofertas, evaluación, admisión y calificación de ofertas técnicas.' Para la toma de inventario físico de bienes patrimoniales generalmente se convoca una Adjudicación Simplificada y la secuencia es la indicada."
+        },
+        {
+        "pregunta": "Una Sociedad de Beneficencia convoca una Subasta Inversa Electrónica para la adquisición de combustible por el monto de S/. 390,000.00 y realiza una comparación de precios para adquirir bidones de agua por el monto de S/. 44,000.00 ¿Cuál es el plazo máximo que tendrían los postores para interponer apelación contra la declaración de nulidad de ambos procedimientos de selección?",
+        "alternativas": [
+        "En el caso de la Subasta Inversa Electrónica y en el caso de Comparación de Precios el plazo seria de cinco (5) días hábiles.",
+        "En el caso de la Subasta Inversa Electrónica el plazo seria de cinco (5) días hábiles y en caso de Comparación de Precios seria el plazo seria de ocho (8) días hábiles.",
+        "En el caso de la Subasta Inversa Electrónica el plazo seria de ocho (8) días hábiles y en el caso de Comparación de Precios seria de cinco (5) días hábiles.",
+        "En el caso de la Subasta Inversa Electrónica y en el caso de Comparación de Precios el plazo seria de ocho (8) días hábiles."
+        ],
+        "correcta": 2,
+        "solucion": "La respuesta correcta es 'En el caso de la Subasta Inversa Electrónica el plazo seria de ocho (8) días hábiles y en el caso de Comparación de Precios seria de cinco (5) días hábiles.' Esto se debe a que el plazo para interponer apelación varía según el tipo de procedimiento y el monto involucrado."
+        },
+        {
+        "pregunta": "¿En cuáles de los siguientes procedimientos de selección es aplicable la siguiente secuencia? 1. Convocatoria, 2. Registro de participantes, 3. Formulación de consultas y observaciones, 4. Absolución de consultas y observaciones e Integración de bases, 5. Presentación de ofertas, 6. Apertura de ofertas técnicas, 7. Admisión de ofertas técnicas, 8.Calificacion de ofertas técnicas, 9. Evaluación de ofertas técnicas, 10. Apertura de ofertas económicas, 11. Otorgamiento de la buena pro.",
+        "alternativas": [
+        "La secuencia es aplicable para los concursos públicos y adjudicaciones simplificadas, tanto para la contratación de consultoría en general y consultoría de obras.",
+        "La secuencia es aplicable para los concursos públicos para la contratación de servicios en general y consultoría de obras; así como de las adjudicaciones simplificadas para la contratación de consultoría en general y servicio en general.",
+        "La secuencia es aplicable para los concursos públicos para la contratación de consultoría de obras y modalidad mixta; así como de las adjudicaciones simplificadas para la contratación de consultoría en general.",
+        "La secuencia es aplicable para los concursos públicos para la contratación de consultoría en general y modalidad mixta; así como de las adjudicaciones simplificadas para la contratación de consultoría de obras."
+        ],
+        "correcta": 2,
+        "solucion": "La respuesta correcta es 'La secuencia es aplicable para los concursos públicos para la contratación de consultoría de obras y modalidad mixta; así como de las adjudicaciones simplificadas para la contratación de consultoría en general.' Esta secuencia es específica para estos tipos de procedimientos de selección."
+        },
+        {
+        "pregunta": "Establezca la relación correcta entre el número y la letra respecto a los factores de evaluación y los documentos que sirven para acreditarlos. 1.• Sistema de Gestión Ambiental, 2.- Sistema de Gestión Calidad, 3.• Capacitación del personal de la Entidad, 4.- Mejoras a los términos de referencia, a. Certificado ISO 14001, b. Certificado ISO 9001, c. Declaración Jurada.",
+        "alternativas": [
+        "1a,2b,3c,4c",
+        "1b, 2a, 3c,4c",
+        "1e, 2c, 3c, 4a",
+        "1e, 2c, 3c, 4b"
+        ],
+        "correcta": 0,
+        "solucion": "La respuesta correcta es '1a,2b,3c,4c'. El Sistema de Gestión Ambiental se acredita con el Certificado ISO 14001, el Sistema de Gestión de Calidad con el Certificado ISO 9001, y tanto la Capacitación del personal como las Mejoras a los términos de referencia se acreditan con Declaración Jurada."
+        },
+        {
+        "pregunta": "Quién es competente para conocer y resolver un recurso de apelación cuando en una licitación pública de ejecución de obras según relación de ítems, cuyo valor referencial es mayor a 50 UIT, se impugna un ítem cuyo valor referencial es igual o menor a 50 UIT",
+        "alternativas": [
+        "Tribunal de contrataciones.",
+        "Tribunal arbitral.",
+        "Titular de la Entidad, siendo facultad indelegable.",
+        "Titular de la Entidad, siendo facultad delegable."
+        ],
+        "correcta": 0,
+        "solucion": "La respuesta correcta es 'Tribunal de contrataciones.' En una licitación pública cuyo valor referencial total es mayor a 50 UIT, aunque se impugne un ítem de valor igual o menor a 50 UIT, la competencia para resolver el recurso de apelación recae en el Tribunal de Contrataciones del Estado."
+        },
+        {
+        "pregunta": "La interposición del recurso de apelación suspende el procedimiento de selección. Señale la alternativa correcta:",
+        "alternativas": [
+        "En todos los casos, salvo en el caso de un procedimiento para la incorporación de proveedores a los Catálogos Electrónicos de Acuerdo Marco o de un procedimiento de extensión de vigencia de dichos catálogos.",
+        "En todos los casos sin excepción.",
+        "En todos los casos, salvo en el caso de un procedimiento para la incorporación de proveedores a los Catálogos Electrónicos de Acuerdo Marco o de un procedimiento de extensión de vigencia de dichos catálogos y en un procedimiento por encargo.",
+        "En todos los casos, salvo en el caso de un procedimiento para la incorporación de proveedores a los Catálogos Electrónicos de Acuerdo Marco o de un procedimiento de extensión de vigencia de dichos catálogos y de una compra corporativa obligatoria"
+        ],
+        "correcta": 0,
+        "solucion": "La respuesta correcta es 'En todos los casos, salvo en el caso de un procedimiento para la incorporación de proveedores a los Catálogos Electrónicos de Acuerdo Marco o de un procedimiento de extensión de vigencia de dichos catálogos.' Esta es la excepción específica mencionada en la normativa de contrataciones del Estado."
+        },
+        {
+        "pregunta": "Un Gobierno regional convoco una adjudicación simplificada para la elaboración de un Plan de desarrollo de parques industriales. Al momento de revisar las ofertas presentadas por los postores, el comité de selección no admitió la oferta de uno (1) de los postores que presento la promesa de consorcio sin consignar el porcentaje de las obligaciones de los integrantes del consorcio. Asimismo, el comité no admitió la oferta de otro postor, porque en la declaración jurada de datos no consigno correctamente su correo electrónico. Señale la alternativa correcta respecto a la verificación de los requisitos de admisibilidad de las ofertas.",
+        "alternativas": [
+        "El comité de selección actuó correctamente al no admitir la oferta del postor que presento la promesa de consorcio sin consignar el porcentaje de obligaciones de los integrantes del consorcio, pero debió otorgar un plazo para que el otro postor consigne el correo electrónico en la declaración jurada.",
+        "El comité de selección actuó correctamente al no admitir la oferta del postor que no consigno el correo electrónico en su declaración jurada, pero debió otorgar un plazo para que el otro postor presente la promesa consorcio con el porcentaje de obligaciones de los integrantes del consorcio.",
+        "El comité de selección no actuó correctamente al no admitir la oferta del postor que no consigno el correo electrónico en su declaración jurada y al no admitir la oferta del postor que presento la promesa de consorcio sin consignar el porcentaje de obligaciones de los integrantes del consorcio.",
+        "El comité de selección actuó correctamente al no admitir la oferta del postor que no consigno el correo electrónico en su declaración jurada, y al no admitir la oferta del postor que presento la promesa de consorcio sin consignar el porcentaje de las obligaciones de los integrantes del consorcio."
+        ],
+        "correcta": 0,
+        "solucion": "La respuesta correcta es 'El comité de selección actuó correctamente al no admitir la oferta del postor que presento la promesa de consorcio sin consignar el porcentaje de obligaciones de los integrantes del consorcio, pero debió otorgar un plazo para que el otro postor consigne el correo electrónico en la declaración jurada.' La falta de porcentaje en la promesa de consorcio es un error no subsanable, mientras que el error en el correo electrónico es subsanable."
+        },
+        {
+        "pregunta": "En el supuesto que dos (2) o más ofertas que empaten en el puntaje total en el caso de __________ la determinación del orden de prelación se efectúa __________, y en el caso de __________ la determinación del orden de prelación se efectúa __________. Señale la alternativa correcta.",
+        "alternativas": [
+        "Concurso público para servicios en general, por sorteo, concurso público para consultoría, al postor que haya obtenido el mejor puntaje técnico.",
+        "Concurso público para servicios de consultoría, por sorteo, concurso público para consultoría, al postor que haya obtenido el mejor puntaje económico.",
+        "Concurso público para servicios en general, por sorteo, concurso público para consultoría, por sorteo.",
+        "Concurso público para servicios en general, al postor que haya obtenido el mejor puntaje técnico, concurso público para servicios en general, por sorteo"
+        ],
+        "correcta": 0,
+        "solucion": "La respuesta correcta es 'Concurso público para servicios en general, por sorteo, concurso público para consultoría, al postor que haya obtenido el mejor puntaje técnico.' En servicios en general se desempata por sorteo, mientras que en consultoría se prioriza al que obtuvo mejor puntaje técnico."
+        },
+        {
+        "pregunta": "Establezca la relación correcta entre el número y la letra en relación a la competencia para resolver un recurso de apelación: 1. Titular de la Entidad, 2. Tribunal de Contrataciones del Estado, a) Cancelación de una comparación de precios por el monto de S/. 40,000.00, b) Nulidad de una subasta inversa electrónica por el monto de S/. 100,000.00, c) Declaración de desierto de una selección de consultores individuales por el monto de S/. 38,000.00, d) Otorgamiento de la buena por la adjudicación simplificada por el monto de S/. 190,000.00",
+        "alternativas": [
+        "1c, 1d, 2a, 2b",
+        "1a, 1d, 2b, 2c",
+        "1a, 1c, 2b, 2d",
+        "1a, 1c, 1d, 2b"
+        ],
+        "correcta": 3,
+        "solucion": "La respuesta correcta es '1a, 1c, 1d, 2b'. El Titular de la Entidad resuelve recursos de apelación en procedimientos de selección cuyo valor referencial sea igual o menor a 50 UIT, mientras que el Tribunal de Contrataciones del Estado resuelve los que superen ese monto."
+        },
+        {
+          "pregunta": "El gobierno regional 'VERANO ETERNO' requiere adquirir camionetas para el área de Defensa Civil. Asimismo, el comité de selección ha contemplado el factor de evaluación 'Disponibilidad de servicios y repuestos' con un puntaje de 50 puntos.",
+          "alternativas": [
+          "El factor de evaluación esta incorrecto porque el puntaje máximo es de 10 puntos.",
+          "Es correcto el factor de evaluación porque no supera los 50 puntos.",
+          "Es incorrecto porque el factor de evaluación de disponibilidad de servicios y repuestos no existe para bienes.",
+          "Es incorrecto el factor de evaluación porque debió ser requisito de calificación."
+          ],
+          "correcta": 2,
+          "solucion": "La respuesta correcta es 'Es incorrecto porque el factor de evaluación de disponibilidad de servicios y repuestos no existe para bienes.' En la adquisición de bienes, la disponibilidad de servicios y repuestos no es un factor de evaluación válido según la normativa de contrataciones del Estado."
+          },
+          {
+          "pregunta": "El Ministerio 'EDUCACIÓN TRANSPARENTE' ha convocado una SCI para contratar a un consultor para la elaboración de la curricula pedagógica. Asimismo, el Comité de Selección ha incluido como factor de evaluación 'Experiencia del Postor' con 60 puntos.",
+          "alternativas": [
+          "Es incorrecto ya que experiencia del postor es un requisito de calificación.",
+          "Es incorrecto ya que el puntaje máximo debe ser 50 puntos.",
+          "Es incorrecto porque el puntaje máximo debe ser 10 puntos.",
+          "Es correcto."
+          ],
+          "correcta": 0,
+          "solucion": "La respuesta correcta es 'Es incorrecto ya que experiencia del postor es un requisito de calificación.' En una Selección de Consultores Individuales (SCI), la experiencia del postor es un requisito de calificación y no un factor de evaluación."
+          },
+          {
+          "pregunta": "El Ministerio 'SIN DELINCUENCIA' ha convocado una AS para el servicio de mantenimiento de vehículos. Asimismo, el Comité de Selección ha incluido como factor de evaluación 'Mejoras' con un puntaje de 10 puntos.",
+          "alternativas": [
+          "Es correcto.",
+          "Es incorrecto porque el factor 'Mejoras' no existe para el caso de servicios.",
+          "Es incorrecto porque el factor 'Mejoras' no existe para la AS.",
+          "Es correcto porque no supera los 10 puntos."
+          ],
+          "correcta": 0,
+          "solucion": "La respuesta correcta es 'Es correcto.' En una Adjudicación Simplificada (AS) para servicios, las 'Mejoras' pueden ser incluidas como factor de evaluación, y el puntaje de 10 puntos está dentro de lo permitido por la normativa."
+          },
+          {
+          "pregunta": "El gobierno regional 'LOS SANTOS' en el SEACE han rectificado las bases y el resumen ejecutivo, corrigiendo los datos erróneos. Señale la alternativa correcta.",
+          "alternativas": [
+          "La entidad no actuó correctamente porque no se puede rectificar el contenido de las bases ni del resumen ejecutivo.",
+          "La Entidad actuó correctamente porque se puede rectificar la información registrada en el SEACE, siempre y cuando lo realice antes del inicio de la presentación de ofertas",
+          "La entidad no actuó correctamente porque no se puede rectificar ninguna información del procedimiento de selección registrada en el SEACE.",
+          "La Entidad no actuó correctamente porque no se puede rectificar la información registrada en el SEACE, siempre y cuando lo realice antes del inicio de la integración de bases."
+          ],
+          "correcta": 1,
+          "solucion": "La respuesta correcta es 'La Entidad actuó correctamente porque se puede rectificar la información registrada en el SEACE, siempre y cuando lo realice antes del inicio de la presentación de ofertas'. La normativa permite rectificar la información en el SEACE antes de la presentación de ofertas."
+          },
+          {
+            "pregunta": "Para la contratación del servicio de Internet, el Titular de la Entidad declaró la nulidad del procedimiento porque el comité de selección incluyó en las bases como factores de evaluación la disponibilidad de servicio y repuestos. Al respecto, señale la alternativa correcta.",
+            "alternativas": [
+            "Se vulneró el principio ético de eficiencia del servidor público al establecer como factor de evaluación la disponibilidad de servicio y repuestos.",
+            "No se vulneró ningún principio ético del servidor público",
+            "Se vulneró el principio ético de idoneidad del servidor público al establecer como factor de evaluación la experiencia del postor.",
+            "Se vulneró el principio ético de veracidad del servidor público al establecer como factor de evaluación la disponibilidad de servicio y repuestos."
+            ],
+            "correcta": 0,
+            "solucion": "La respuesta correcta es 'Se vulneró el principio ético de eficiencia del servidor público al establecer como factor de evaluación la disponibilidad de servicio y repuestos.' Este factor de evaluación no es apropiado para el servicio de Internet, lo que va en contra del principio de eficiencia en las contrataciones públicas. Este tema se aborda en las páginas 12-13 del material de estudio, donde se discuten los principios éticos del servidor público."
+            },
+            {
+            "pregunta": "Con relación a las opiniones y pronunciamientos del OSCE, y las resoluciones del Tribunal de contrataciones del Estado, señale la alternativa correcta.",
+            "alternativas": [
+            "Las opiniones emitidas por el OSCE son de carácter vinculante para todos los procedimientos de selección.",
+            "Las resoluciones del Tribunal y las opiniones emitidas por el OSCE son de carácter vinculante para todos los procedimientos de selección.",
+            "Las opiniones y los pronunciamientos emitidos por el OSCE son de carácter vinculante para todos los procedimientos de selección.",
+            "Los pronunciamientos y las opiniones emitidas por el OSCE y las resoluciones del Tribunal son de carácter vinculante para todos los procedimientos de selección."
+            ],
+            "correcta": 1,
+            "solucion": "La respuesta correcta es 'Las resoluciones del Tribunal y las opiniones emitidas por el OSCE son de carácter vinculante para todos los procedimientos de selección.' Tanto las resoluciones del Tribunal como las opiniones del OSCE tienen carácter vinculante en el ámbito de las contrataciones públicas. Este tema se trata en la página 64 del material de estudio, donde se habla de los precedentes de observancia obligatoria y las opiniones del OSCE."
+            },
+            {
+            "pregunta": "Una Municipalidad provincial declara la nulidad de una licitación pública antes de otorgar la buena pro, debido a que el objeto de la contratación correspondía a un servicio en general. Un participante interpone un recurso de apelación porque no está de acuerdo con dicha declaratoria. ¿Cómo debería resolverse el recurso de apelación?",
+            "alternativas": [
+            "El recurso de apelación debe ser declarado fundado porque la Entidad no actuó correctamente al declarar la nulidad del procedimiento de selección.",
+            "El recurso de apelación debe ser declarado infundado porque la Entidad debió cancelar el procedimiento de selección porque todavía no se había otorgado la buena pro.",
+            "El recurso de apelación debe ser declarado infundado porque la Entidad actuó correctamente al declarar la nulidad del procedimiento de selección.",
+            "El recurso de apelación debe ser declarado improcedente porque un participante no puede interponer dicho recurso, sino solamente los postores."
+            ],
+            "correcta": 2,
+            "solucion": "La respuesta correcta es 'El recurso de apelación debe ser declarado infundado porque la Entidad actuó correctamente al declarar la nulidad del procedimiento de selección.' La Entidad actuó correctamente al declarar la nulidad si el objeto de la contratación no correspondía al tipo de procedimiento convocado. Este tema se aborda en las páginas 59-60 del material de estudio, donde se discuten los recursos de apelación y las causales de nulidad."
+            },
+            {
+            "pregunta": "Una Universidad quiere convocar __________ para la contratación de seguridad y vigilancia. La secuencia correcta de dicho procedimiento de selección es: __________, __________ y __________",
+            "alternativas": [
+            "Un concurso público, presentación de ofertas, admisión, calificación y evaluación de ofertas.",
+            "Un concurso público, presentación de ofertas, admisión, evaluación y calificación de ofertas.",
+            "Una adjudicación simplificada, presentación de ofertas, admisión, calificación y evaluación de ofertas.",
+            "Una adjudicación simplificada, presentación de ofertas, evaluación, admisión y calificación de ofertas."
+            ],
+            "correcta": 1,
+            "solucion": "La respuesta correcta es 'Un concurso público, presentación de ofertas, admisión, evaluación y calificación de ofertas.' Para la contratación de servicios de seguridad y vigilancia, generalmente se convoca un concurso público, y la secuencia correcta es la mencionada. Esta información se puede encontrar en las páginas 45-46 del material de estudio, donde se describen los procedimientos de selección y sus etapas."
+            },
+            {
+            "pregunta": "Una Universidad quiere convocar __________ para la contratación de una adquisición de uniformes. La secuencia correcta de dicho procedimiento de selección es: __________, __________ y __________",
+            "alternativas": [
+            "Una Licitación Pública, presentación de ofertas, admisión, calificación y evaluación de ofertas.",
+            "Una Licitación Pública, presentación de ofertas, admisión, evaluación y calificación de ofertas.",
+            "Una adjudicación simplificada, presentación de ofertas, admisión, calificación y evaluación de ofertas.",
+            "Una adjudicación simplificada, presentación de ofertas, evaluación, admisión y calificación de ofertas."
+            ],
+            "correcta": 1,
+            "solucion": "La respuesta correcta es 'Una Licitación Pública, presentación de ofertas, admisión, evaluación y calificación de ofertas.' Para la adquisición de uniformes, dependiendo del monto, se puede convocar una Licitación Pública, y la secuencia correcta es la mencionada. Esta información se puede encontrar en las páginas 45-46 del material de estudio, donde se describen los procedimientos de selección y sus etapas."
+            },
+            {
+            "pregunta": "En __________ el plazo para absolver las consultas y observaciones no puede exceder de __________",
+            "alternativas": [
+            "AS, 5 días hábiles",
+            "CP, 5 días hábiles",
+            "AS, 7 días hábiles",
+            "CP, 7 días hábiles"
+            ],
+            "correcta": 3,
+            "solucion": "La respuesta correcta es 'CP, 7 días hábiles'. En un Concurso Público (CP), el plazo para absolver las consultas y observaciones no puede exceder de 7 días hábiles. Esta información se encuentra en la página 46 del material de estudio, donde se detallan los plazos para los diferentes procedimientos de selección."
+            },
+            {
+            "pregunta": "Qué datos se debe registrar y publicar en la consola de selección del SEACE al realizar la cancelación total o parcial de un procedimiento de selección",
+            "alternativas": [
+            "Se puede adjuntar el archivo de la resolución o el acuerdo cancelatorio.",
+            "Se puede adjuntar el archivo de la resolución y se debe registrar el acuerdo cancelatorio.",
+            "Se debe adjuntar el archivo de la resolución o el acuerdo cancelatorio.",
+            "Se debe adjuntar el archivo de la resolución y se puede adjuntar el acuerdo cancelatorio."
+            ],
+            "correcta": 2,
+            "solucion": "La respuesta correcta es 'Se debe adjuntar el archivo de la resolución o el acuerdo cancelatorio.' Según la normativa, es obligatorio adjuntar el documento que sustenta la cancelación, ya sea la resolución o el acuerdo cancelatorio. Esta información se puede encontrar en la página 54 del material de estudio, donde se habla sobre la cancelación de procedimientos de selección."
+            },
+            {
+            "pregunta": "Una Entidad cancela una adjudicación simplificada cuyo valor estimado es S/. 100,000, por desaparecer la necesidad. Un postor que no está de acuerdo con la cancelación interpone un recurso de apelación ante el Tribunal de Contrataciones. ¿Cómo debería resolverse dicho recurso?",
+            "alternativas": [
+            "El recurso de apelación debe ser declarado fundado, porque no se configuro ninguna causal para cancelar el procedimiento de selección.",
+            "El recurso de apelación debe ser declarado improcedente por haberse interpuesto ante el Tribunal de Contrataciones.",
+            "El recurso de apelación debe ser declarado procedente porque la cancelación del procedimiento de selección se llevó a cabo correctamente.",
+            "El recurso de apelación debe ser declarado infundado por haberse interpuesto ante el Tribunal de Contrataciones."
+            ],
+            "correcta": 1,
+            "solucion": "La respuesta correcta es 'El recurso de apelación debe ser declarado improcedente por haberse interpuesto ante el Tribunal de Contrataciones.' Para un valor estimado de S/. 100,000, el recurso de apelación debe presentarse ante la Entidad, no ante el Tribunal de Contrataciones. Esta información se puede encontrar en la página 59 del material de estudio, donde se explica la competencia para conocer los recursos de apelación."
+            },
+            {
+            "pregunta": "Si una Entidad contrata una supervisión de obra por un valor referencial de S/. 700,000.00 ¿Qué procedimiento de selección debe convocar?",
+            "alternativas": [
+            "Licitación Pública.",
+            "Concurso Público.",
+            "Comparación de precios.",
+            "Adjudicación simplificada."
+            ],
+            "correcta": 1,
+            "solucion": "La respuesta correcta es 'Concurso Público.' Para la contratación de servicios de consultoría de obras (como la supervisión) por un monto superior a S/. 400,000, se debe convocar un Concurso Público. Esta información se encuentra en la página 40 del material de estudio, donde se describen los tipos de procedimientos de selección según los montos."
+            },
+            {
+            "pregunta": "Si una Entidad contrata la construcción de un colegio por un valor referencial de S/. 800,000.00 ¿Qué procedimiento de selección debe convocar?",
+            "alternativas": [
+            "Licitación Pública.",
+            "Concurso Público.",
+            "Comparación de precios.",
+            "Adjudicación simplificada."
+            ],
+            "correcta": 3,
+            "solucion": "La respuesta correcta es 'Adjudicación simplificada.' Para la ejecución de obras con un valor referencial entre S/. 400,000 y S/. 1,800,000, se debe convocar una Adjudicación Simplificada. Esta información se encuentra en la página 40 del material de estudio, donde se describen los tipos de procedimientos de selección según los montos."
+            },
+            {
+            "pregunta": "Si una Entidad contrata el servicio de pintado por un valor estimado de S/. 400,000.00 ¿Qué procedimiento de selección debe convocar?",
+            "alternativas": [
+            "Licitación Pública.",
+            "Comparación de precios.",
+            "Concurso Público.",
+            "Adjudicación simplificada."
+            ],
+            "correcta": 3,
+            "solucion": "La respuesta correcta es 'Adjudicación simplificada.' Para la contratación de servicios con un valor estimado entre S/. 34,400 y S/. 400,000, se debe convocar una Adjudicación Simplificada. Esta información se encuentra en la página 40 del material de estudio, donde se describen los tipos de procedimientos de selección según los montos."
+            },
+            {
+            "pregunta": "Si una Entidad contrata la construcción de un puente por un valor referencial de S/. 1,800,000.00 ¿Qué procedimiento de selección debe convocar?",
+            "alternativas": [
+            "Licitación Pública.",
+            "Concurso Público.",
+            "Comparación de precios.",
+            "Adjudicación simplificada."
+            ],
+            "correcta": 0,
+            "solucion": "La respuesta correcta es 'Licitación Pública.' Para la ejecución de obras con un valor referencial igual o superior a S/. 1,800,000, se debe convocar una Licitación Pública. Esta información se encuentra en la página 40 del material de estudio, donde se describen los tipos de procedimientos de selección según los montos."
+            },
+            {
+            "pregunta": "En la AS para la contratación de bienes y servicios en general, el plazo entre la etapa de absolución de consultas y observaciones e integración de bases, y la presentación de ofertas, no debe ser menor a __________.",
+            "alternativas": [
+            "5 días hábiles.",
+            "3 días hábiles.",
+            "7 días hábiles.",
+            "10 días hábiles."
+            ],
+            "correcta": 1,
+            "solucion": "La respuesta correcta es '3 días hábiles.' En una Adjudicación Simplificada (AS) para bienes y servicios en general, el plazo entre la absolución de consultas y observaciones e integración de bases, y la presentación de ofertas, no debe ser menor a 3 días hábiles. Esta información se encuentra en la página 47 del material de estudio, donde se detallan los plazos para los diferentes procedimientos de selección."
+            },
+            {
+            "pregunta": "En el CP para la contratación de consultorías, el plazo para formular consultas y observaciones, no debe ser menor a __________.",
+            "alternativas": [
+            "5 días hábiles.",
+            "3 días hábiles.",
+            "7 días hábiles.",
+            "10 días hábiles."
+            ],
+            "correcta": 2,
+            "solucion": "La respuesta correcta es '7 días hábiles.' En un Concurso Público (CP) para la contratación de consultorías, el plazo para formular consultas y observaciones no debe ser menor a 7 días hábiles. Esta información se encuentra en la página 46 del material de estudio, donde se detallan los plazos para los diferentes procedimientos de selección."
+            },
+            {
+              "pregunta": "En la AS para la contratación de ejecución de obras, el plazo para absolver consultas y observaciones e integrar las bases, no debe ser mayor a __________.",
+              "alternativas": [
+              "5 días hábiles.",
+              "3 días hábiles.",
+              "7 días hábiles.",
+              "10 días hábiles."
+              ],
+              "correcta": 0,
+              "solucion": "La respuesta correcta es '5 días hábiles.' En una Adjudicación Simplificada (AS) para la ejecución de obras, el plazo para absolver consultas y observaciones e integrar las bases no debe ser mayor a 5 días hábiles. Esta información se encuentra en la página 47 del material de estudio, donde se detallan los plazos para los diferentes procedimientos de selección."
+              },
+              {
+              "pregunta": "Una Entidad quiere convocar __________ para la elaboración de un estudio de impacto ambiental. La secuencia correcta de dicho procedimiento de selección es: __________",
+              "alternativas": [
+              "Un LP, presentación de ofertas, admisión, calificación y evaluación de ofertas técnicas.",
+              "Un LP, presentación de ofertas, admisión, evaluación y calificación de ofertas.",
+              "Un CP, presentación de ofertas, admisión, calificación y evaluación de ofertas técnicas.",
+              "Un AS, presentación de ofertas, evaluación, admisión y calificación de oferta."
+              ],
+              "correcta": 2,
+              "solucion": "La respuesta correcta es 'Un CP, presentación de ofertas, admisión, calificación y evaluación de ofertas técnicas.' Para la elaboración de un estudio de impacto ambiental, que es una consultoría, se convoca un Concurso Público (CP) y la secuencia es la indicada. Esta información se puede encontrar en las páginas 45-46 del material de estudio, donde se describen los procedimientos de selección y sus etapas para diferentes tipos de contrataciones."
+              },
+              {
+              "pregunta": "Una Entidad quiere convocar __________ para la adquisición de productos para el programa de vaso de leche. La secuencia correcta de dicho procedimiento de selección es: __________",
+              "alternativas": [
+              "Un LP, presentación de ofertas, admisión, calificación y evaluación de ofertas técnicas.",
+              "Un LP, presentación de ofertas, admisión, evaluación y calificación de ofertas.",
+              "Un CP, presentación de ofertas, admisión, calificación y evaluación de ofertas técnicas.",
+              "Un AS, presentación de ofertas, evaluación, admisión y calificación de oferta."
+              ],
+              "correcta": 1,
+              "solucion": "La respuesta correcta es 'Un LP, presentación de ofertas, admisión, evaluación y calificación de ofertas.' Para la adquisición de productos para el programa de vaso de leche, dependiendo del monto, se convoca una Licitación Pública (LP) y la secuencia es la indicada. Esta información se puede encontrar en las páginas 45-46 del material de estudio, donde se describen los procedimientos de selección y sus etapas para diferentes tipos de contrataciones."
+              }
 ]
-//pagina 20
+//pagina 37
 
 const Timer = dynamic(() => Promise.resolve(() => {
   
